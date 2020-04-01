@@ -20,7 +20,7 @@ $article = new Article;
 <html>
 	<head>
 		<title>CMS Tutorial</title>
-		<link rel="stylesheet" href="../assets/style.css" /> 
+		<link rel="stylesheet" href="../assets/styles.css" /> 
 	</head>
 	<body>
 		<div class="container">
@@ -38,6 +38,7 @@ $article = new Article;
                     <?php } ?>
                 </select>
             </form>
+            <a href="index.php">&larr; Back</a>
 		</div>
 	</body>
 </html>

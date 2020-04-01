@@ -13,7 +13,7 @@ if (isset($_GET['id'])) {
 <html>
 	<head>
 		<title>CMS Tutorial</title>
-		<link rel="stylesheet" href="assets/style.css" /> 
+		<link rel="stylesheet" href="assets/styles.css" /> 
 	</head>
 	<body>
 		<div class="container">

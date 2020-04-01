@@ -11,7 +11,7 @@ if (isset($_SESSION['logged_in'])) {
 <html>
 	<head>
 		<title>CMS Tutorial</title>
-		<link rel="stylesheet" href="../assets/style.css" /> 
+		<link rel="stylesheet" href="../assets/styles.css" /> 
 	</head>
 	<body>
 		<div class="container">
@@ -30,6 +30,7 @@ if (isset($_SESSION['logged_in'])) {
                     <a href="logout.php">Logout</a>
                 </li>
             </ol>
+            <a href="../index.php">&larr; Back</a>
 		</div>
 	</body>
 </html>
@@ -71,7 +72,7 @@ if (isset($_SESSION['logged_in'])) {
 <html>
 	<head>
 		<title>CMS Tutorial</title>
-		<link rel="stylesheet" href="../assets/style.css" /> 
+		<link rel="stylesheet" href="../assets/styles.css" /> 
 	</head>
 	<body>
 		<div class="container">
