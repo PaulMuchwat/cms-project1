@@ -16,12 +16,9 @@ $articles = $article->fetch_all();
 		<?php foreach ($articles as $article) { ?>
 			<li>
 				<a href="article.php?id=<?php echo $article['article_id'];?>">
-					<?php echo $article['article_image'];?>
-				<a href="article.php?id=<?php echo $article['article_id'];?>">
 					<?php echo $article['article_title'];?>
 				</a>
 				-<small>
-				<?php echo $article['article_imageText'];?>
 				<?php echo date('l jS', $article['article_timestamp']);?>
 				</small>
 			</li>

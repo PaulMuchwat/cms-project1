@@ -2,7 +2,10 @@ body{
     padding-top: 120px;
     font-family: Arial;
 }
-
+html{
+    background-image: url(wallpaper.png);
+    background-repeat: repeat-x; 
+}
 .container {
     width: 500px;
     margin: 0 auto;
